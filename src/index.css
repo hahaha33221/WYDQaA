@@ -535,140 +535,159 @@ button {
 }
 
 /* ═══════════════════════════════════════════════════
-   Q&A 탭 컨텐츠
+   Q&A 탭 컨텐츠 (Pigeonhole 연동)
    ═══════════════════════════════════════════════════ */
-.qa-submit-card {
+.pigeonhole-card {
   background: #FFFFFF;
-  border: 1.5px solid var(--wyd-red-border);
+  border: 1.5px solid var(--wyd-blue-border);
   border-radius: var(--radius-md);
-  padding: 20px 18px;
-  box-shadow: 0 4px 20px rgba(229, 46, 61, 0.08);
-  margin-bottom: 24px;
+  padding: 24px 20px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 0.25s ease-out;
 }
 
-.qa-card-header {
-  margin-bottom: 16px;
-}
-
-.qa-badge {
+.pigeonhole-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   background: var(--wyd-red-soft);
   color: var(--wyd-red);
-  padding: 3px 8px;
+  padding: 4px 10px;
   border-radius: var(--radius-full);
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 800;
   letter-spacing: 0.04em;
-  margin-bottom: 6px;
-}
-
-.qa-badge-dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--wyd-red);
-}
-
-.qa-card-header h2 {
-  font-size: 19px;
-  font-weight: 800;
-  color: var(--wyd-navy);
-  margin: 0 0 4px;
-  letter-spacing: -0.02em;
-}
-
-.qa-card-header p {
-  font-size: 13.5px;
-  color: var(--text-sub);
-  margin: 0;
-}
-
-.qa-textarea-wrap {
-  position: relative;
   margin-bottom: 12px;
 }
 
-.qa-textarea {
-  width: 100%;
-  background: #F8FAFC;
-  border: 1px solid var(--line-strong);
-  border-radius: 12px;
-  padding: 14px 14px 28px;
-  font-size: 15.5px;
+.pigeonhole-badge .live-bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--wyd-red);
+  animation: pulse 1.5s infinite;
+}
+
+.pigeonhole-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--wyd-navy);
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+}
+
+.pigeonhole-desc {
+  font-size: 14px;
+  color: var(--text-sub);
+  margin: 0 0 20px;
   line-height: 1.5;
-  color: var(--text-main);
-  resize: vertical;
-  min-height: 96px;
-  transition: all 0.2s ease;
 }
 
-.qa-textarea:focus {
-  outline: none;
+.pigeonhole-qr-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: #F8FAFC;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  margin: 0 auto 20px;
+  max-width: 280px;
+}
+
+.pigeonhole-qr-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: var(--shadow-sm);
   background: #FFFFFF;
-  border-color: var(--wyd-red);
-  box-shadow: 0 0 0 3px var(--wyd-red-soft);
+  padding: 8px;
 }
 
-.qa-char-count {
-  position: absolute;
-  right: 12px;
-  bottom: 8px;
-  font-size: 11.5px;
+.qr-scan-label {
+  margin-top: 10px;
+  font-size: 12.5px;
+  font-weight: 600;
   color: var(--text-muted);
 }
 
-.qa-form-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.qa-privacy-note {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  color: var(--text-muted);
-}
-
-.qa-submit-btn {
+.pigeonhole-primary-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, var(--wyd-blue) 0%, var(--wyd-red) 100%);
+  width: 100%;
+  max-width: 320px;
+  background: linear-gradient(135deg, var(--wyd-blue) 0%, #003B99 100%);
   color: #FFFFFF;
-  padding: 13px 22px;
+  padding: 14px 24px;
   border-radius: var(--radius-full);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
-  box-shadow: 0 6px 18px rgba(0, 82, 204, 0.25);
-  min-height: 46px;
-  margin-left: auto;
+  box-shadow: 0 6px 20px rgba(0, 82, 204, 0.28);
+  text-decoration: none;
+  transition: all 0.18s ease;
+  min-height: 50px;
+  margin: 0 auto 16px;
 }
 
-.qa-submit-btn:hover:not(:disabled) {
+.pigeonhole-primary-btn:hover {
   opacity: 0.95;
   transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(0, 82, 204, 0.35);
 }
 
-.qa-submit-btn:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-  box-shadow: none;
+.pigeonhole-url-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #F1F5F9;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 10px 8px 14px;
+  max-width: 340px;
+  margin: 0 auto 18px;
 }
 
-.spinner-sm {
-  width: 14px;
-  height: 14px;
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  border-top-color: #FFFFFF;
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+.pigeonhole-url-text {
+  font-size: 13px;
+  color: var(--text-sub);
+  font-family: monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pigeonhole-copy-btn {
+  flex-shrink: 0;
+  background: #FFFFFF;
+  border: 1px solid var(--line-strong);
+  color: var(--text-main);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pigeonhole-copy-btn:hover {
+  background: var(--wyd-blue-soft);
+  color: var(--wyd-blue);
+  border-color: var(--wyd-blue);
+}
+
+.pigeonhole-notice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: 4px;
 }
 
 /* ═══════════════════════════════════════════════════

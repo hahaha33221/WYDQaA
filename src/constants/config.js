@@ -10,5 +10,8 @@ export const CONFIG = {
   adminCode: "2027",
 
   // QR이 가리킬 주소. 비워두면 지금 보고 있는 주소를 씁니다.
-  publicUrl: ""
+  publicUrl: "",
+
+  // 실시간 Q&A Pigeonhole URL
+  pigeonholeUrl: "https://pigeonhole.at/5DESEEV8JCGZ"
 };
