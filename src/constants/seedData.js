@@ -1,5 +1,185 @@
 export const SEED = [
   {
+    id: "v1",
+    tag: { ko: "장소", en: "Venues" },
+    q: {
+      ko: "절두산, 꾸르실료회관, 명동대성당이 세계청년대회 때도 사용되나요?",
+      en: "Will Jeoldusan, Cursillo Centre, and Myeongdong Cathedral also be used during World Youth Day?",
+      es: "¿Se usarán Jeoldusan, el Centro de Cursillos y la Catedral de Myeongdong durante la JMJ?",
+      fr: "Jeoldusan, le centre de Cursillo et la cathédrale de Myeongdong seront-ils également utilisés pendant les JMJ ?",
+      it: "Jeoldusan, il centro Cursillo e la cattedrale di Myeongdong saranno usati anche durante la GMG?",
+      pt: "Jeoldusan, o Centro de Cursilhos e a Catedral de Myeongdong também serão usados durante a JMJ?"
+    },
+    a: {
+      ko: "세 곳 모두 사용됩니다.",
+      en: "All three locations will be used.",
+      es: "Se utilizarán los tres lugares.",
+      fr: "Les trois lieux seront utilisés.",
+      it: "Tutti e tre i luoghi saranno utilizzati.",
+      pt: "Todos os três locais serão utilizados."
+    }
+  },
+  {
+    id: "v2",
+    tag: { ko: "답사", en: "Site visit" },
+    q: {
+      ko: "왜 절두산을 답사지로 선택했나요?",
+      en: "Why was Jeoldusan chosen as the site visit location?",
+      es: "¿Por qué se eligió Jeoldusan como lugar de visita?",
+      fr: "Pourquoi Jeoldusan a-t-il été choisi pour la visite du site ?",
+      it: "Perché Jeoldusan è stato scelto come luogo del sopralluogo?",
+      pt: "Por que Jeoldusan foi escolhido para a visita técnica?"
+    },
+    a: {
+      ko: "한국 가톨릭 교회가 지닌 특수성의 가장 중요한 요소가 순교이기 때문입니다. 절두산 순교성지는 실제로 순교자들의 사형이 집행되었던 장소로서 그 요소를 가장 잘 드러내는 곳입니다.",
+      en: "Because martyrdom is the most essential element reflecting the distinct identity of the Catholic Church in Korea. Jeoldusan Martyrs' Shrine is where the executions of martyrs actually took place, best representing this spiritual heritage.",
+      es: "Porque el martirio es el elemento más esencial que refleja la identidad propia de la Iglesia Católica en Corea. El Santuario de los Mártires de Jeoldusan es el lugar donde realmente se llevaron a cabo las ejecuciones de los mártires.",
+      fr: "Parce que le martyre est l'élément le plus essentiel de l'identité de l'Église catholique en Corée. Le sanctuaire des martyrs de Jeoldusan est le lieu où les exécutions ont réellement eu lieu.",
+      it: "Perché il martirio è l'elemento fondamentale dell'identità della Chiesa cattolica in Corea. Il santuario dei martiri di Jeoldusan è il luogo in cui avvennero effettivamente le esecuzioni dei martiri.",
+      pt: "Porque o martírio é o elemento mais essencial da identidade da Igreja Católica na Coreia. O Santuário dos Mártires de Jeoldusan é o local onde as execuções dos mártires realmente ocorreram."
+    }
+  },
+  {
+    id: "v3",
+    tag: { ko: "본대회", en: "Main event" },
+    q: {
+      ko: "본대회 때 성지순례 프로그램도 있나요?",
+      en: "Will there be a pilgrimage programme during the main event?",
+      es: "¿Habrá un programa de peregrinación durante el evento principal?",
+      fr: "Y aura-t-il un programme de pèlerinage pendant l'événement principal ?",
+      it: "Ci sarà un programma di pellegrinaggio durante l'evento principale?",
+      pt: "Haverá um programa de peregrinação durante o evento principal?"
+    },
+    a: {
+      ko: "있습니다. 절두산 성지뿐 아니라 교황청에서 인정받은 서울 순례길 전체가 소개됩니다.",
+      en: "Yes. Not only Jeoldusan Shrine but the entire Seoul Pilgrimage Trail recognized by the Holy See will be introduced.",
+      es: "Sí. Se presentará no solo el Santuario de Jeoldusan, sino toda la Ruta de Peregrinación de Seúl reconocida por la Santa Sede.",
+      fr: "Oui. Non seulement le sanctuaire de Jeoldusan mais l'ensemble du chemin de pèlerinage de Séoul reconnu par le Saint-Siège sera présenté.",
+      it: "Sì. Verrà presentato non solo il santuario di Jeoldusan, ma l'intero Cammino di pellegrinaggio di Seul riconosciuto dalla Santa Sede.",
+      pt: "Sim. Não apenas o Santuário de Jeoldusan, mas todo o Caminho de Peregrinação de Seul reconhecido pela Santa Sé será apresentado."
+    }
+  },
+  {
+    id: "v4",
+    tag: { ko: "장소", en: "Venues" },
+    q: {
+      ko: "월드컵경기장 수용 인원이 얼마나 되나요?",
+      en: "What is the capacity of Seoul World Cup Stadium?",
+      es: "¿Cuál es el aforo del Estadio de la Copa del Mundo de Seúl?",
+      fr: "Quelle est la capacité du stade de la Coupe du monde de Séoul ?",
+      it: "Qual è la capienza dello stadio Seoul World Cup?",
+      pt: "Qual é a capacidade do Estádio da Copa do Mundo de Seul?"
+    },
+    a: {
+      ko: "서울월드컵경기장은 약 66,700석 규모로, 2002년 FIFA 월드컵을 위해 건립된 아시아 최대 축구 전용 구장입니다. (답사 가이드 설명 자료 기준입니다.)",
+      en: "Seoul World Cup Stadium has a capacity of approximately 66,700 seats and is the largest football-specific stadium in Asia, built for the 2002 FIFA World Cup. (Based on site visit guide materials.)",
+      es: "El Estadio de la Copa del Mundo de Seúl cuenta con unas 66.700 plazas y es el estadio de fútbol más grande de Asia, construido para la Copa del Mundo FIFA 2002. (Según el material de la visita.)",
+      fr: "Le stade de la Coupe du monde de Séoul a une capacité d'environ 66 700 places et est le plus grand stade dédié au football en Asie, construit pour la Coupe du monde FIFA 2002. (D'après les documents de visite.)",
+      it: "Lo stadio Seoul World Cup ha una capienza di circa 66.700 posti ed è il più grande stadio dedicato al calcio dell'Asia, costruito per i Mondiali FIFA 2002. (In base alla guida del sopralluogo.)",
+      pt: "O Estádio da Copa do Mundo de Seul tem capacidade para cerca de 66.700 lugares e é o maior estádio específico de futebol da Ásia, construído para a Copa do Mundo FIFA de 2002. (Conforme material da visita técnica.)"
+    }
+  },
+  {
+    id: "v5",
+    tag: { ko: "운영", en: "Operations" },
+    q: {
+      ko: "수용 인원을 넘으면 어떻게 하나요?",
+      en: "What happens if the attendance exceeds the venue capacity?",
+      es: "¿Qué se hará si se supera el aforo?",
+      fr: "Que se passera-t-il si la capacité d'accueil est dépassée ?",
+      it: "Cosa si farà se si supera la capienza?",
+      pt: "O que será feito se a capacidade for ultrapassada?"
+    },
+    a: {
+      ko: "인근 공원까지 확대하여 운영할 예정입니다. 순례자 등록 인원에 따라 달라질 예정이며, 공원의 범위는 아직 확정 전입니다.",
+      en: "Operations will expand to neighbouring parks. Details will depend on the final pilgrim registration numbers, and the exact boundaries of the park area are currently being finalized.",
+      es: "Se prevé ampliar el espacio a los parques adyacentes. Dependerá del número final de peregrinos registrados y el perímetro del parque está por confirmar.",
+      fr: "L'accueil s'étendra aux parcs voisins. Cela dépendra du nombre final de pèlerins inscrits, le périmètre précis restant à confirmer.",
+      it: "L'accoglienza sarà estesa ai parchi vicini. Dipenderà dal numero finale di pellegrini registrati, e l'area esatta del parco è in fase di definizione.",
+      pt: "As operações serão expandidas para os parques vizinhos. Isso dependerá do número de peregrinos inscritos, e os limites exatos do parque estão por confirmar."
+    }
+  },
+  {
+    id: "v6",
+    tag: { ko: "운영", en: "Operations" },
+    q: {
+      ko: "우천 시에는 어떻게 되나요?",
+      en: "What happens in case of rain?",
+      es: "¿Qué pasará si llueve?",
+      fr: "Que se passe-t-il en cas de pluie ?",
+      it: "Cosa succede in caso di pioggia?",
+      pt: "O que acontece em caso de chuva?"
+    },
+    a: {
+      ko: "이번 주 수요일 답사 일정에는 비가 오지 않는 것으로 확인했습니다. 변동 사항이 생기면 그룹 리더를 통해 빠르게 안내해 드립니다.",
+      en: "Weather forecasts indicate no rain for this Wednesday's site visit. Any updates will be communicated promptly through group leaders.",
+      es: "Se ha confirmado que no lloverá para la visita de este miércoles. Cualquier cambio se comunicará rápidamente a través de los líderes de grupo.",
+      fr: "Les prévisions confirment qu'il ne pleuvra pas pour la visite de ce mercredi. Tout changement sera communiqué rapidement par les chefs de groupe.",
+      it: "Le previsioni confermano che non pioverà per il sopralluogo di questo mercoledì. Eventuali variazioni saranno comunicate tempestivamente dai capigruppo.",
+      pt: "Confirmou-se que não haverá chuva para a visita técnica desta quarta-feira. Qualquer alteração será comunicada de imediato pelos líderes de grupo."
+    }
+  },
+  {
+    id: "v7_1",
+    tag: { ko: "본대회", en: "Main event" },
+    q: {
+      ko: "본대회 때도 성지 설명 자료가 제공되나요?",
+      en: "Will informational materials on the holy shrines be provided during the main event?",
+      es: "¿Se facilitará material explicativo sobre los santuarios durante el evento principal?",
+      fr: "Des documents explicatifs sur les sanctuaires seront-ils fournis pendant l'événement principal ?",
+      it: "Durante l'evento principale sarà fornito materiale informativo sui santuari?",
+      pt: "Durante o evento principal será fornecido material explicativo sobre os santuários?"
+    },
+    a: {
+      ko: "순례자 앱을 통해 설명 자료가 제공됩니다.",
+      en: "Informational materials will be provided through the Pilgrim App.",
+      es: "El material explicativo se facilitará a través de la App del Peregrino.",
+      fr: "Les documents explicatifs seront fournis via l'application du pèlerin.",
+      it: "Il materiale informativo sarà fornito tramite l'App del Pellegrino.",
+      pt: "O material explicativo será disponibilizado por meio do Aplicativo do Peregrino."
+    }
+  },
+  {
+    id: "v7_2",
+    tag: { ko: "언어", en: "Languages" },
+    q: {
+      ko: "언어별로 제공되나요? 한국어와 영어만인가요?",
+      en: "Will the materials be provided in different languages? Is it only Korean and English?",
+      es: "¿Estará disponible en varios idiomas? ¿Solo coreano e inglés?",
+      fr: "Sera-t-il disponible en plusieurs langues ? Uniquement en coréen et en anglais ?",
+      it: "Sarà disponibile in diverse lingue? Solo coreano e inglese?",
+      pt: "Será disponibilizado em diferentes idiomas? Apenas coreano e inglês?"
+    },
+    a: {
+      ko: "순례자 앱의 콘텐츠는 공식 언어 전부로 제공됩니다.",
+      en: "Content on the Pilgrim App will be available in all official languages.",
+      es: "Los contenidos de la App del Peregrino estarán disponibles en todos los idiomas oficiales.",
+      fr: "Les contenus de l'application du pèlerin seront disponibles dans toutes les langues officielles.",
+      it: "I contenuti dell'App del Pellegrino saranno disponibili in tutte le lingue ufficiali.",
+      pt: "Os conteúdos do Aplicativo do Peregrino estarão disponíveis em todos os idiomas oficiais."
+    }
+  },
+  {
+    id: "v8",
+    tag: { ko: "언어", en: "Languages" },
+    q: {
+      ko: "플리토가 본대회 때도 사용되나요?",
+      en: "Will Flitto also be used during the main event?",
+      es: "¿Se usará también Flitto durante el evento principal?",
+      fr: "Flitto sera-t-il également utilisé pendant l'événement principal ?",
+      it: "Flitto sarà usato anche durante l'evento principale?",
+      pt: "O Flitto também será usado durante o evento principal?"
+    },
+    a: {
+      ko: "이번 제2차 국제준비회의에서 시범 사용한 뒤 도입 여부를 결정할 예정입니다. 본대회 적용은 데이터 운영 측면을 포함한 여러 사항을 고려해 활용 방안을 검토 중입니다.",
+      en: "Its adoption will be decided after a trial use during this 2nd International Preparatory Meeting. Its application for the main event is currently under review, taking into account data operations and various other factors.",
+      es: "Se decidirá su adopción tras el uso de prueba en esta 2.ª Reunión Preparatoria Internacional. Su uso en el evento principal está en estudio considerando aspectos operativos y de datos.",
+      fr: "Son adoption sera décidée après un essai lors de cette 2e réunion internationale préparatoire. Son application pour l'événement principal est à l'étude en tenant compte de la gestion des données.",
+      it: "L'adozione sarà decisa dopo l'utilizzo di prova in questo 2° Incontro Preparatorio Internazionale. L'applicazione all'evento principale è in fase di valutazione considerando la gestione dei dati.",
+      pt: "A sua adoção será decidida após o teste nesta 2.ª Reunião Preparatória Internacional. A aplicação no evento principal está sendo avaliada considerando a gestão de dados."
+    }
+  },
+  {
     id: "s1",
     tag: { ko: "등록", en: "Registration" },
     q: {
@@ -98,129 +278,5 @@ export const SEED = [
       it: "Gli oggetti smarriti sono al banco informazioni. Scrivici cosa hai perso, dove e quando: verifichiamo e rispondiamo qui.",
       pt: "Os objetos perdidos ficam no balcão de informações. Diga-nos o que perdeu, onde e a que horas; verificamos e respondemos aqui."
     }
-  },
-  {
-    id: "v1",
-    tag: { ko: "장소", en: "Venues" },
-    q: {
-      ko: "절두산 순교성지, 꾸르실료 회관, 명동대성당도 세계청년대회 때 사용되나요?",
-      en: "Will Jeoldusan Martyrs' Shrine, the Cursillo Centre and Myeongdong Cathedral be used during World Youth Day?",
-      es: "¿Se usarán el Santuario de los Mártires de Jeoldusan, el Centro de Cursillos y la Catedral de Myeongdong durante la JMJ?",
-      fr: "Le sanctuaire des martyrs de Jeoldusan, le centre de Cursillo et la cathédrale de Myeongdong seront-ils utilisés pendant les JMJ ?",
-      it: "Il santuario dei martiri di Jeoldusan, il centro Cursillo e la cattedrale di Myeongdong saranno usati durante la GMG?",
-      pt: "O Santuário dos Mártires de Jeoldusan, o Centro de Cursilhos e a Catedral de Myeongdong serão usados durante a JMJ?"
-    },
-    a: {}
-  },
-  {
-    id: "v2",
-    tag: { ko: "답사", en: "Site visit" },
-    q: {
-      ko: "답사지로 절두산 순교성지를 선택한 배경이 무엇인가요?",
-      en: "Why was Jeoldusan Martyrs' Shrine chosen for this site visit?",
-      es: "¿Por qué se eligió el Santuario de los Mártires de Jeoldusan para esta visita?",
-      fr: "Pourquoi le sanctuaire des martyrs de Jeoldusan a-t-il été retenu pour cette visite ?",
-      it: "Perché è stato scelto il santuario dei martiri di Jeoldusan per questo sopralluogo?",
-      pt: "Por que o Santuário dos Mártires de Jeoldusan foi escolhido para esta visita?"
-    },
-    a: {}
-  },
-  {
-    id: "v3",
-    tag: { ko: "본대회", en: "Main event" },
-    q: {
-      ko: "본대회 기간에도 절두산 같은 성지를 도는 순례 프로그램이 있나요?",
-      en: "Will there be a pilgrimage programme to shrines such as Jeoldusan during the main event?",
-      es: "¿Habrá un programa de peregrinación a santuarios como Jeoldusan durante el evento principal?",
-      fr: "Y aura-t-il un programme de pèlerinage vers des sanctuaires comme Jeoldusan pendant l'événement principal ?",
-      it: "Durante l'evento principale ci sarà un programma di pellegrinaggio a santuari come Jeoldusan?",
-      pt: "Durante o evento principal haverá um programa de peregrinação a santuários como Jeoldusan?"
-    },
-    a: {}
-  },
-  {
-    id: "v4",
-    tag: { ko: "장소", en: "Venues" },
-    q: {
-      ko: "서울월드컵경기장에는 몇 명이 들어갈 수 있나요?",
-      en: "How many people does Seoul World Cup Stadium hold?",
-      es: "¿Cuál es el aforo del Estadio de la Copa del Mundo de Seúl?",
-      fr: "Quelle est la capacité du stade de la Coupe du monde de Séoul ?",
-      it: "Qual è la capienza dello stadio Seoul World Cup?",
-      pt: "Qual é a capacidade do Estádio da Copa do Mundo de Seul?"
-    },
-    a: {
-      ko: "서울시설공단 자료 기준 총 관람석은 66,704석이며 귀빈석, 언론보도석, 스카이박스가 포함된 숫자입니다. 무대와 동선을 어떻게 놓느냐에 따라 실제로 쓰는 좌석은 이보다 줄어듭니다.",
-      en: "Seoul Facilities Corporation lists 66,704 seats in total, including VIP, press and skybox seats. The number actually used will be lower depending on how the stage and circulation routes are laid out.",
-      es: "La Corporación de Instalaciones de Seúl indica 66.704 asientos en total, incluidos VIP, prensa y palcos. La cifra realmente utilizable será menor según la disposición del escenario y las circulaciones.",
-      fr: "La Seoul Facilities Corporation indique 66 704 places au total, sièges VIP, presse et loges compris. Le nombre réellement exploitable sera inférieur selon l'implantation de la scène et des circulations.",
-      it: "La Seoul Facilities Corporation indica 66.704 posti in totale, inclusi VIP, stampa e skybox. I posti effettivamente utilizzabili saranno meno, a seconda di palco e percorsi.",
-      pt: "A Seoul Facilities Corporation indica 66.704 lugares no total, incluindo VIP, imprensa e camarotes. O número realmente utilizável será menor, consoante o palco e os percursos."
-    }
-  },
-  {
-    id: "v5",
-    tag: { ko: "운영", en: "Operations" },
-    q: {
-      ko: "수용 인원을 넘으면 어떻게 하나요?",
-      en: "What happens if more people come than the venue can hold?",
-      es: "¿Qué pasa si llega más gente de la que cabe?",
-      fr: "Que se passe-t-il s'il vient plus de monde que la capacité du site ?",
-      it: "Cosa succede se arrivano più persone della capienza?",
-      pt: "O que acontece se chegarem mais pessoas do que a capacidade?"
-    },
-    a: {}
-  },
-  {
-    id: "v6",
-    tag: { ko: "운영", en: "Operations" },
-    q: {
-      ko: "비가 오면 행사는 어떻게 되나요?",
-      en: "What happens to the programme if it rains?",
-      es: "¿Qué pasa con el programa si llueve?",
-      fr: "Que devient le programme en cas de pluie ?",
-      it: "Cosa succede al programma se piove?",
-      pt: "O que acontece ao programa se chover?"
-    },
-    a: {}
-  },
-  {
-    id: "v7",
-    tag: { ko: "본대회", en: "Main event" },
-    q: {
-      ko: "본대회 때 성지에 대한 설명 자료가 제공되나요?",
-      en: "Will information materials about the shrines be provided during the main event?",
-      es: "¿Se facilitará material explicativo sobre los santuarios durante el evento principal?",
-      fr: "Des documents de présentation des sanctuaires seront-ils fournis pendant l'événement principal ?",
-      it: "Durante l'evento principale sarà fornito materiale informativo sui santuari?",
-      pt: "Durante o evento principal será fornecido material explicativo sobre os santuários?"
-    },
-    a: {}
-  },
-  {
-    id: "v8",
-    tag: { ko: "언어", en: "Languages" },
-    q: {
-      ko: "성지 설명 자료는 어떤 언어로 제공되나요? 한국어와 영어만인가요?",
-      en: "Which languages will the shrine materials be in? Korean and English only?",
-      es: "¿En qué idiomas estará el material de los santuarios? ¿Solo coreano e inglés?",
-      fr: "Dans quelles langues les documents sur les sanctuaires seront-ils disponibles ? Uniquement en coréen et en anglais ?",
-      it: "In quali lingue sarà il materiale sui santuari? Solo coreano e inglese?",
-      pt: "Em que línguas estará o material sobre os santuários? Apenas coreano e inglês?"
-    },
-    a: {}
-  },
-  {
-    id: "v9",
-    tag: { ko: "언어", en: "Languages" },
-    q: {
-      ko: "본대회 때에도 Flitto 통역·번역 서비스를 사용하나요?",
-      en: "Will the Flitto translation service also be used during the main event?",
-      es: "¿Se usará también el servicio de traducción Flitto durante el evento principal?",
-      fr: "Le service de traduction Flitto sera-t-il également utilisé pendant l'événement principal ?",
-      it: "Il servizio di traduzione Flitto sarà usato anche durante l'evento principale?",
-      pt: "O serviço de tradução Flitto também será usado durante o evento principal?"
-    },
-    a: {}
   }
 ];

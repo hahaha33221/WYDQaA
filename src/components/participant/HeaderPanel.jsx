@@ -47,7 +47,6 @@ export default function HeaderPanel({ onOpenLangModal }) {
 
       <div className="wyd-header-text">
         <h1 className="wyd-title">{t.title}</h1>
-        <p className="wyd-lead">{t.lead}</p>
       </div>
     </header>
   );

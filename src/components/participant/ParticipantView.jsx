@@ -40,9 +40,6 @@ export default function ParticipantView() {
               {isCloud ? t.live : t.local}
             </span>
           </div>
-          <div className="quick-switch-hint">
-            WYD SEOUL 2027 OFFICIAL
-          </div>
         </div>
 
         {/* Sticky Mobile Segmented Tabs: FAQ vs Q&A */}
