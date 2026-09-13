@@ -32,15 +32,8 @@ export default function ParticipantView() {
 
       {/* Main Container */}
       <main className="participant-main">
-        {/* Connection Status Bar */}
-        <div className="live-status-bar">
-          <div className="status-indicator">
-            <span className={`status-dot ${live || !isCloud ? "online" : "offline"}`} />
-            <span className="status-text">
-              {isCloud ? t.live : t.local}
-            </span>
-          </div>
-        </div>
+
+
 
         {/* Sticky Mobile Segmented Tabs: FAQ vs Q&A */}
         <div className="segmented-tabs-wrapper" role="tablist">
