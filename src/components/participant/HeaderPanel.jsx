@@ -9,10 +9,7 @@ export default function HeaderPanel({ onOpenLangModal }) {
   return (
     <header className="wyd-header">
       <div className="wyd-header-top">
-        <div className="header-badge">
-          <span className="live-indicator-dot" />
-          <span>INFO DESK</span>
-        </div>
+        <div />
         <button
           type="button"
           className="lang-selector-btn"
