@@ -35,19 +35,19 @@ export default function QaTabContent() {
           <span>LIVE Q&A</span>
         </div>
 
-        <h2 className="pigeonhole-title">실시간 질문 접수 (Q&A)</h2>
+        <h2 className="pigeonhole-title">{t.qaTitle}</h2>
         <p className="pigeonhole-desc">
-          아래 QR 코드를 스캔하거나 바로가기 버튼을 누르면 실시간 질문 접수 창으로 이동합니다.
+          {t.qaGuide}
         </p>
 
         {/* QR Code Frame */}
         <div className="pigeonhole-qr-frame">
           <img
             src={qrImg}
-            alt="실시간 Q&A 접속 QR 코드"
+            alt={t.qrAlt}
             className="pigeonhole-qr-img"
           />
-          <span className="qr-scan-label">카메라로 QR 코드를 스캔하세요</span>
+          <span className="qr-scan-label">{t.qrScan}</span>
         </div>
 
         {/* Direct Link Action Button */}
@@ -57,7 +57,7 @@ export default function QaTabContent() {
           rel="noopener noreferrer"
           className="pigeonhole-primary-btn"
         >
-          <span>Q&A 바로 접속하기</span>
+          <span>{t.qaGoBtn}</span>
           <svg
             width="18"
             height="18"
@@ -78,9 +78,9 @@ export default function QaTabContent() {
             type="button"
             className="pigeonhole-copy-btn"
             onClick={handleCopy}
-            aria-label="주소 복사"
+            aria-label={t.urlCopy}
           >
-            {copied ? "복사됨 ✓" : "주소 복사"}
+            {copied ? t.urlCopied : t.urlCopy}
           </button>
         </div>
 

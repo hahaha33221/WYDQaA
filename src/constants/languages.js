@@ -47,7 +47,14 @@ export const T = {
     wipedAlert: "모두 지웠습니다",
     networkError: "보내지 못했습니다. 네트워크를 확인하세요.",
     screenTitle: "방금 들어온 질문과 답변",
-    screenEmpty: "아직 답변된 질문이 없습니다. QR을 스캔해 질문을 보내주세요."
+    screenEmpty: "아직 답변된 질문이 없습니다. QR을 스캔해 질문을 보내주세요.",
+    qaTitle: "실시간 질문 접수 (Q&A)",
+    qaGuide: "아래 QR 코드를 스캔하거나 바로가기 버튼을 누르면 실시간 질문 접수 창으로 이동합니다.",
+    qrAlt: "실시간 Q&A 접속 QR 코드",
+    qrScan: "카메라로 QR 코드를 스캔하세요",
+    qaGoBtn: "Q&A 바로 접속하기",
+    urlCopied: "복사됨 ✓",
+    urlCopy: "주소 복사"
   },
   en: {
     title: "What can we help with?",
@@ -88,7 +95,14 @@ export const T = {
     wipedAlert: "All questions deleted",
     networkError: "Failed to send. Please check your network.",
     screenTitle: "Recently Answered Questions",
-    screenEmpty: "No answered questions yet. Scan the QR code to ask."
+    screenEmpty: "No answered questions yet. Scan the QR code to ask.",
+    qaTitle: "Live Q&A",
+    qaGuide: "Scan the QR code below or tap the button to go to the live Q&A page.",
+    qrAlt: "QR code for live Q&A",
+    qrScan: "Scan the QR code with your camera",
+    qaGoBtn: "Go to Q&A",
+    urlCopied: "Copied ✓",
+    urlCopy: "Copy URL"
   },
   es: {
     title: "¿En qué podemos ayudarte?",
@@ -129,7 +143,14 @@ export const T = {
     wipedAlert: "Todas las preguntas eliminadas",
     networkError: "Error al enviar. Comprueba tu conexión.",
     screenTitle: "Preguntas y respuestas recientes",
-    screenEmpty: "Aún no hay preguntas respondidas. Escanea el código QR para preguntar."
+    screenEmpty: "Aún no hay preguntas respondidas. Escanea el código QR para preguntar.",
+    qaTitle: "Preguntas en vivo (Q&A)",
+    qaGuide: "Escanea el código QR o toca el botón para ir a la página de preguntas en vivo.",
+    qrAlt: "Código QR para Q&A en vivo",
+    qrScan: "Escanea el código QR con tu cámara",
+    qaGoBtn: "Ir al Q&A",
+    urlCopied: "Copiado ✓",
+    urlCopy: "Copiar enlace"
   },
   fr: {
     title: "Comment pouvons-nous aider ?",
@@ -170,7 +191,14 @@ export const T = {
     wipedAlert: "Toutes les questions supprimées",
     networkError: "Échec de l'envoi. Vérifiez votre connexion.",
     screenTitle: "Questions et réponses récentes",
-    screenEmpty: "Pas encore de réponses. Scannez le code QR pour poser une question."
+    screenEmpty: "Pas encore de réponses. Scannez le code QR pour poser une question.",
+    qaTitle: "Questions en direct (Q&A)",
+    qaGuide: "Scannez le code QR ci-dessous ou appuyez sur le bouton pour accéder au Q&A en direct.",
+    qrAlt: "Code QR pour le Q&A en direct",
+    qrScan: "Scannez le code QR avec votre caméra",
+    qaGoBtn: "Accéder au Q&A",
+    urlCopied: "Copié ✓",
+    urlCopy: "Copier le lien"
   },
   it: {
     title: "Come possiamo aiutarti?",
@@ -211,7 +239,14 @@ export const T = {
     wipedAlert: "Tutte le domande eliminate",
     networkError: "Invio non riuscito. Controlla la connessione.",
     screenTitle: "Domande e risposte recenti",
-    screenEmpty: "Ancora nessuna risposta. Scansiona il codice QR per fare una domanda."
+    screenEmpty: "Ancora nessuna risposta. Scansiona il codice QR per fare una domanda.",
+    qaTitle: "Domande in diretta (Q&A)",
+    qaGuide: "Scansiona il codice QR qui sotto o tocca il pulsante per accedere al Q&A in diretta.",
+    qrAlt: "Codice QR per il Q&A in diretta",
+    qrScan: "Scansiona il codice QR con la fotocamera",
+    qaGoBtn: "Vai al Q&A",
+    urlCopied: "Copiato ✓",
+    urlCopy: "Copia link"
   },
   pt: {
     title: "Como podemos ajudar?",
@@ -252,6 +287,13 @@ export const T = {
     wipedAlert: "Todas as perguntas foram excluídas",
     networkError: "Falha no envio. Verifique sua conexão.",
     screenTitle: "Perguntas e respostas recentes",
-    screenEmpty: "Ainda não há perguntas respondidas. Leia o código QR para perguntar."
+    screenEmpty: "Ainda não há perguntas respondidas. Leia o código QR para perguntar.",
+    qaTitle: "Perguntas ao vivo (Q&A)",
+    qaGuide: "Leia o código QR abaixo ou toque no botão para aceder ao Q&A ao vivo.",
+    qrAlt: "Código QR para o Q&A ao vivo",
+    qrScan: "Leia o código QR com a câmara",
+    qaGoBtn: "Ir para o Q&A",
+    urlCopied: "Copiado ✓",
+    urlCopy: "Copiar link"
   }
 };
