@@ -545,5 +545,45 @@ export const SEED = [
       it: "Per informazioni di base come orari di ritrovo, servizi igienici, percorsi e pasti, il volontario risponderà subito. Per il resto, lasci la domanda nell'app Q&A e il team organizzatore risponderà.",
       pt: "Para informações básicas como horas de encontro, casas de banho, percursos e refeições, o seu voluntário responde de imediato. Para o resto, deixe a pergunta na aplicação Q&A e a equipa organizadora responderá."
     }
+  },
+  {
+    id: "q27",
+    tag: { ko: "언어", en: "Languages", es: "Idiomas", fr: "Langues", it: "Lingue", pt: "Idiomas" },
+    q: {
+      ko: "플리토를 사용하려면 인터넷이 꼭 필요한가요?",
+      en: "Is an internet connection required to use Flitto?",
+      es: "¿Se necesita conexión a internet para usar Flitto?",
+      fr: "Une connexion Internet est-elle obligatoire pour utiliser Flitto ?",
+      it: "È necessaria una connessione Internet per utilizzare Flitto?",
+      pt: "É necessária uma ligação à internet para usar o Flitto?"
+    },
+    a: {
+      ko: "네. 실시간 번역 이용을 위해 인터넷 연결이 필요합니다. 호텔에서는 Wi-Fi를 이용할 수 있지만, 답사 중에는 별도의 데이터가 제공되지 않으므로 개인 모바일 데이터를 사용해 주셔야 합니다.",
+      en: "Yes. An internet connection is required for real-time translation. Wi-Fi is available at the hotel, but mobile data is not provided during the site visit, so you will need to use your personal mobile data.",
+      es: "Sí. Se requiere conexión a internet para la traducción en tiempo real. En el hotel hay Wi-Fi disponible, pero durante la visita no se proporcionan datos móviles, por lo que deberá utilizar sus propios datos móviles.",
+      fr: "Oui. Une connexion Internet est requise pour utiliser la traduction en direct. Le Wi-Fi est disponible à l'hôtel, mais aucune donnée mobile n'est fournie pendant la visite ; vous devez utiliser vos données mobiles personnelles.",
+      it: "Sì. È necessaria una connessione Internet per la traduzione in tempo reale. In hotel è disponibile il Wi-Fi, ma durante la visita non sono forniti dati mobili, pertanto è necessario utilizzare i propri dati mobili.",
+      pt: "Sim. É necessária uma ligação à internet para a tradução em tempo real. O Wi-Fi está disponível no hotel, mas não são fornecidos dados móveis durante a visita, pelo que deve usar os seus dados móveis pessoais."
+    }
+  },
+  {
+    id: "q28",
+    tag: { ko: "편의", en: "Convenience", es: "Comodidad", fr: "Pratique", it: "Comfort", pt: "Comodidade" },
+    q: {
+      ko: "답사 중 휴대전화 충전이 가능한가요?",
+      en: "Is mobile phone charging available during the site visit?",
+      es: "¿Se pueden cargar los teléfonos móviles durante la visita?",
+      fr: "Est-il possible de recharger son téléphone portable pendant la visite ?",
+      it: "È possibile ricaricare il cellulare durante la visita?",
+      pt: "É possível carregar o telemóvel durante a visita?"
+    },
+    a: {
+      ko: "휴대폰 충전은 별도로 제공되지 않습니다.",
+      en: "Phone charging is not provided separately.",
+      es: "No se ofrece servicio de carga de teléfonos móviles.",
+      fr: "La recharge des téléphones portables n'est pas fournie.",
+      it: "La ricarica dei telefoni cellulari non è fornita separatamente.",
+      pt: "O carregamento de telemóveis não é disponibilizado."
+    }
   }
 ];
