@@ -106,22 +106,24 @@ export default function FaqTabContent({ faqs, onSwitchToQa, initialQuery = "" })
       <FaqAccordion items={filtered} />
 
       {/* Jump to Q&A Prompt Banner */}
-      <div className="ask-banner-card">
-        <div className="ask-banner-info">
-          <strong>{t.emptyT}</strong>
-          <p>{t.emptyB}</p>
+      {onSwitchToQa && (
+        <div className="ask-banner-card">
+          <div className="ask-banner-info">
+            <strong>{t.emptyT}</strong>
+            <p>{t.emptyB}</p>
+          </div>
+          <button
+            type="button"
+            className="ask-banner-btn"
+            onClick={() => onSwitchToQa(searchQuery)}
+          >
+            <span>{t.goToQaBtn}</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
         </div>
-        <button
-          type="button"
-          className="ask-banner-btn"
-          onClick={() => onSwitchToQa(searchQuery)}
-        >
-          <span>{t.goToQaBtn}</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-        </button>
-      </div>
+      )}
     </div>
   );
 }

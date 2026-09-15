@@ -538,12 +538,12 @@ export const SEED = [
       pt: "Onde posso perguntar se tiver mais dúvidas?"
     },
     a: {
-      ko: "집결 시각, 화장실, 동선, 식사 같은 기본 안내는 담당 봉사자가 바로 알려드립니다. 그 밖의 질문은 Q&A 앱에 남겨 주시면 운영진이 답변해 드립니다.",
-      en: "For basic information such as meeting times, restrooms, routes and meals, your volunteer can answer straight away. For anything else, leave your question in the Q&A app and the organising team will reply.",
-      es: "Para información básica como horarios de encuentro, aseos, recorridos y comidas, su voluntario le responderá enseguida. Para lo demás, deje su pregunta en la aplicación Q&A y el equipo organizador le contestará.",
-      fr: "Pour les informations de base (heures de rassemblement, toilettes, itinéraires, repas), votre bénévole vous répondra immédiatement. Pour le reste, posez votre question dans l'application Q&A : l'équipe d'organisation vous répondra.",
-      it: "Per informazioni di base come orari di ritrovo, servizi igienici, percorsi e pasti, il volontario risponderà subito. Per il resto, lasci la domanda nell'app Q&A e il team organizzatore risponderà.",
-      pt: "Para informações básicas como horas de encontro, casas de banho, percursos e refeições, o seu voluntário responde de imediato. Para o resto, deixe a pergunta na aplicação Q&A e a equipa organizadora responderá."
+      ko: "집결 시각, 화장실, 동선, 식사 같은 기본 안내는 담당 봉사자가 바로 알려드립니다. 그 밖의 질문은 담당 봉사자 또는 운영진에게 문의해 주시기 바랍니다.",
+      en: "For basic information such as meeting times, restrooms, routes and meals, your volunteer can answer straight away. For other questions, please ask your volunteer or the organising team.",
+      es: "Para información básica como horarios de encuentro, aseos, recorridos y comidas, su voluntario le responderá enseguida. Para otras preguntas, consulte con su voluntario o con el equipo organizador.",
+      fr: "Pour les informations de base (heures de rassemblement, toilettes, itinéraires, repas), votre bénévole vous répondra immédiatement. Pour toute autre question, adressez-vous à votre bénévole ou à l'équipe d'organisation.",
+      it: "Per informazioni di base come orari di ritrovo, servizi igienici, percorsi e pasti, il volontario risponderà subito. Per altre domande, si rivolga al suo volontario o al team organizzatore.",
+      pt: "Para informações básicas como horas de encontro, casas de banho, percursos e refeições, o seu voluntário responde de imediato. Para outras dúvidas, contacte o seu voluntário ou a equipa organizadora."
     }
   },
   {
